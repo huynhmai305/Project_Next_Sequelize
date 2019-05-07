@@ -1,0 +1,30 @@
+{
+  "name": "FRONTEND",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "next": "^8.1.0",
+    "pg": "^7.10.0",
+    "pg-hstore": "^2.3.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-payment-card-component": "^0.2.1",
+    "react-router-dom": "^5.0.0",
+    "sequelize": "^5.8.5"
+  }
+}

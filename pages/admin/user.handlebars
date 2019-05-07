@@ -1,0 +1,39 @@
+
+        <div>
+            <table className="table table-striped">
+                <thead>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                </thead>
+                <tbody>
+                        {{!-- <% result.forEach(us =>{ %>
+                            <tr>
+                                <td><% us.id %></td>
+                                <td><% us.id %></td>
+                                <td><% us.id %></td>
+                                <td><% us.id %></td>
+                                <td><% us.id %></td>
+                            </tr>
+                         <% }) %> --}}
+                           {{#each result}}
+                            <tr>
+                                <td> {{id}}</td>
+                                <td> {{username}}</td>
+                                <td> {{address}}</td>
+                                <td> {{phone}}</td>
+                                <td> {{email}}</td>
+                            </tr>
+                           {{else}}
+                           <p>Available</p>
+                           {{/each}}
+                </tbody>
+                    
+
+            </table>
+
+        </div>
+    
+            
